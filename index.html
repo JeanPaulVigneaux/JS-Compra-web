@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="padre">
+    <div class="card" style="width: 18rem;">
+
+        <img src="assets/imgs/shaq.jpeg" class="card-img-top" alt="">
+        
+        <div class="card-body">
+          <h5 class="card-title" >Shaquille O'Neall II</h5>
+          <input id="select1" type="text" placeholder="Cantidad"/>
+          <input id="select2" type="text" placeholder="Color"/>
+          <h6>Precio: <span id="precio">155000</span> pesos </h6>
+          <button id="boton">Calcular Total</button>
+        </div>
+     </div>
+
+        <div>
+            <ul class = "lista">
+              <li>Total: <span id="calculo1"> 0 </span></li>
+              <li>Cantidad: <span id="calculo2"> 0 </span></li>
+              <li>Color: <span id="calculo3"></span></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
